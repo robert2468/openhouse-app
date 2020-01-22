@@ -13,7 +13,7 @@ class ScheduleScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <CustomHeader navigation={this.props.navigation} title="Schedule" />
+        <CustomHeader showFilter={true} navigation={this.props.navigation} title="Schedule" />
         <ScheduleList navigation={this.props.navigation}/>
       </View>
     );
